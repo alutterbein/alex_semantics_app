@@ -24,10 +24,23 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header ul {
-    list-style-type: none;
+header nav {
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
 }
 
+header nav ul {
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 /*removed .header class to use header element instead */
 
 a {
@@ -91,11 +104,11 @@ main {
 }
 
 .benefits p {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 /* consolidated .benefit-lead .benefit-brand .benefit-cost into .benefits class
- added benefits p to increase margin between content may need to increase*/
+ added benefits p to increase margin between content */
 
 .main_content {
     margin-bottom: 20px;
